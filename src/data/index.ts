@@ -115,7 +115,7 @@ export const formInputList : IFormInput[]= [
     },
     {
         id :"image",
-        name : "imageURL",
+        name : "imageUrl",
         label :"Product Image URL",
         type: "text"
     },
