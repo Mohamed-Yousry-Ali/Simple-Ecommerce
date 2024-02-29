@@ -1,5 +1,5 @@
  import { v4 as uuid } from "uuid";
-import { IFormInput, IProduct } from "../interfaces";
+import { ICategory, IFormInput, IProduct } from "../interfaces";
 
 export const productList : IProduct[] =[
     {
@@ -146,5 +146,16 @@ export const Colors :string[] = [
  "#FF0015"
 ]
    
-
+export const categories :ICategory[]  =[
+    {
+        id: uuid(),
+        name : "Car",
+        imageUrl:"https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FyfGVufDB8fDB8fHww",
+    },
+    {
+        id: uuid(),
+        name : "Shoes",
+        imageUrl:"https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2FyfGVufDB8fDB8fHww",
+    },
+]
 
